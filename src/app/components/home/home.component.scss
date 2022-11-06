@@ -10,28 +10,12 @@
         background-color: #3f51b5;
     }
 
-    .mat-label {
-        max-height: fit-content;
-        height: 30%;
-    }
-
-    .mat-option {
-        background-color: #fff;
-        width: 25%;
-        border-radius: 0px !important;
-        padding-left: 20px;
-    }
-
     .mat-select-value,
     .mat-select-arrow,
     .mat-form-field-hide-placeholder .mat-select-placeholder,
     .mat-form-field-appearence-legacy .mat-form-filed-label {
         color: #fff !important;
         opacity: 1;
-    }
-
-    .mat-select-value {
-        padding-top: 13px;
     }
 
     .mat-form-field-infix {
@@ -47,6 +31,25 @@
 
     .mat-form-field-appearence-legacy .mat-form-field-underline {
         background-color: #fff !important;
+    }
+
+    .mat-label {
+        max-height: fit-content;
+        height: 30%;
+        color: #fff !important;
+    }
+
+    .mat-option {
+        background-color: #fff;
+        width: 20%;
+        border-radius: 0px !important;
+        padding-left: 20px;
+    }
+
+    
+
+    .mat-select-value {
+        padding-top: 0px;
     }
 
 }
